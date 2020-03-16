@@ -18,9 +18,10 @@ Para o desempenho linpack, foi utilizado Linpack Extreme com a versão 1.1.2.
 | Frequência do(s) processador(es)                          |2.1GHz                       |4 GHz            |
 | Memória total                                             |331,776 GB                   |16 GB            |
 | Tipo(s) de interconexão entre os núcleos/processadores    |Intel Omni-Path              |Infinity Fabric  |
-| Desempenho Linpack                                        | 6,470.8 TFlop/s             |177 GFlop/s      |
+| Desempenho Linpack                                        | 6,470.8 TFlop/s             |180 GFlop/s      |
 
 Na ferramenta Linpack Xtreme existia 3 opções de benchmark:
+
 -Utilizando o teste de 2GB de memória:
 <img src="Teste-Linpack/2GB.png">
 
