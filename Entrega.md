@@ -3,10 +3,12 @@ TOP500 & me: Comparativo de Arquiteturas Paralelas
 
 Nome: Miguel Mazuim da Silva
 
+Foi escolhido o computador na posição 30 da lista de novembro de 2019, o Barcelona Supercomputing Center.
+
 | Característica                                            | Computador no TOP500  | Meu computador  |
 | --------------------------------------------------------- | --------------------- | --------------- |
-| Nome/Título                                               |                       | Meu computador  |
-| Imagem (foto, diagrama, screenshot, etc.)                 | Substitua-me. <img src="http://www.top500.org/static//images/Top500_logo.png" width="48"> | Substitua-me. <img src="http://www.top500.org/static//images/Top500_logo.png" width="48">|
+| Nome/Título                                               | Barcelona Supercomputing Center| Meu computador  |
+| Imagem (foto, diagrama, screenshot, etc.)                 | <img src="https://media.glassdoor.com/l/54/b8/84/11/supercomputer-marenostrum-iv.jpg"> | Substitua-me. <img src="meu_computador.jpg" width="48">|
 | Classificação de Flynn                                    |                       |                 |
 | Memória: compartilhada, distribuída ou ambas?             |                       |                 |
 | Número total de núcleos de processamento                  |                       |                 |
