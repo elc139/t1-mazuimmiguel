@@ -17,7 +17,7 @@ Para o desempenho linpack, foi utilizado Linpack Extreme com a versão 1.1.2.
 | Fabricante e modelo do(s) processador(es)                 |Intel Xeon Platinum 8160 24C | AMD Ryzen 5 3600 | 
 | Frequência do(s) processador(es)                          |2.1GHz                       |4 GHz            |
 | Memória total                                             |331,776 GB                   |16 GB            |
-| Tipo(s) de interconexão entre os núcleos/processadores    |Intel Omni-Path              |Infinity Fabric  |
+| Tipo(s) de interconexão entre os núcleos/processadores    |Intel Omni-Path              |Infinity Fabric 2|
 | Desempenho Linpack                                        | 6,470.8 TFlop/s             |180 GFlop/s      |
 
 Na ferramenta Linpack Xtreme existia 3 opções de benchmark:
