@@ -10,7 +10,7 @@ Para o desempenho linpack, foi utilizado Linpack Extreme com a versão 1.1.2.
 | Característica                                            | Computador no TOP500  | Meu computador  |
 | --------------------------------------------------------- | --------------------- | --------------- |
 | Nome/Título                                               | MareNostrum                 | Meu computador  |
-| Imagem (foto, diagrama, screenshot, etc.)                 | <img src="https://media.glassdoor.com/l/54/b8/84/11/supercomputer-marenostrum-iv.jpg"> |<img src="Foto-Meupc/meucomputador.jpg" width = 100>|
+| Imagem (foto, diagrama, screenshot, etc.)                 | <img src="https://media.glassdoor.com/l/54/b8/84/11/supercomputer-marenostrum-iv.jpg" width = 300> |<img src="Foto-Meupc/meucomputador.jpg" width = 300>|
 | Classificação de Flynn                                    |MIMD                         |MIMD             |
 | Memória: compartilhada, distribuída ou ambas?             |Ambas                        |Compartilhada    |
 | Número total de núcleos de processamento                  |153,216 núcleos              |12 núcleos lógicos(6 núcleos físicos)|
