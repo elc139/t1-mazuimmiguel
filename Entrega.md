@@ -1,23 +1,38 @@
 TOP500 & me: Comparativo de Arquiteturas Paralelas
 --------------------------------------------------
 
-Nome: < preencha seu nome aqui >
+Nome: Miguel Mazuim da Silva
+
+Foi escolhido o computador na posição 30 da lista de novembro de 2019, o MareNostrum da Barcelona Supercomputing Center.
+
+Para o desempenho linpack, foi utilizado Linpack Extreme com a versão 1.1.2.
 
 | Característica                                            | Computador no TOP500  | Meu computador  |
 | --------------------------------------------------------- | --------------------- | --------------- |
-| Nome/Título                                               |                       |                 |
-| Imagem (foto, diagrama, screenshot, etc.)                 | Substitua-me. <img src="http://www.top500.org/static//images/Top500_logo.png" width="48"> | Substitua-me. <img src="http://www.top500.org/static//images/Top500_logo.png" width="48">|
-| Classificação de Flynn                                    |                       |                 |
-| Memória: compartilhada, distribuída ou ambas?             |                       |                 |
-| Número total de núcleos de processamento                  |                       |                 |
-| Fabricante e modelo do(s) processador(es)                 |                       |                 |
-| Frequência do(s) processador(es)                          |                       |                 |
-| Memória total                                             |                       |                 |
-| Tipo(s) de interconexão entre os núcleos/processadores    |                       |                 |
-| Desempenho Linpack                                        |                       |                 |
+| Nome/Título                                               | MareNostrum                 | Meu computador  |
+| Imagem (foto, diagrama, screenshot, etc.)                 | <img src="https://media.glassdoor.com/l/54/b8/84/11/supercomputer-marenostrum-iv.jpg" width = 500> |<img src="Foto-Meupc/meucomputador.jpg" width = 300>|
+| Classificação de Flynn                                    |MIMD                         |MIMD             |
+| Memória: compartilhada, distribuída ou ambas?             |Ambas                        |Compartilhada    |
+| Número total de núcleos de processamento                  |153,216 núcleos              |12 núcleos lógicos(6 núcleos físicos)|
+| Fabricante e modelo do(s) processador(es)                 |Intel Xeon Platinum 8160 24C | AMD Ryzen 5 3600 | 
+| Frequência do(s) processador(es)                          |2.1GHz                       |4 GHz            |
+| Memória total                                             |331,776 GB                   |16 GB            |
+| Tipo(s) de interconexão entre os núcleos/processadores    |Intel Omni-Path              |Infinity Fabric 2|
+| Desempenho Linpack                                        | 6,470.8 TFlop/s             |180 GFlop/s      |
+
+Na ferramenta Linpack Xtreme existia 3 opções de benchmark:
+
+-Utilizando o teste de 2GB de memória:
+<img src="Teste-Linpack/2GB.png">
+
+-Utilizando o teste de 3GB de memória:
+<img src="Teste-Linpack/3GB.png">
+
+-Utilizando o teste de 8GB de memória:
+<img src="Teste-Linpack/8GB.png">
 
 ### Referências
-- Complete aqui: Autor (nome de pessoa ou instituição). Título. URL.
-- Complete aqui: Autor (nome de pessoa ou instituição). Título. URL.
-- Complete aqui: Autor (nome de pessoa ou instituição). Título. URL.
-- ...
+
+- AMD Ryzen 5 3600 specifications. http://www.cpu-world.com/CPUs/Zen/AMD-Ryzen%205%203600.html
+- TOP500 MareNostrum - Lenovo SD530, Xeon Platinum 8160 24C 2.1GHz, Intel Omni-Path. https://www.top500.org/system/179067
+- Ferramenta Usada: https://www.techpowerup.com/download/linpack-xtreme/
